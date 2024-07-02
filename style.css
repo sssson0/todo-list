@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    background-image: url(cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.container{
+    
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 50%;
+    min-height: 100vh;
+}
+h2{
+    color: white;
+    padding-top: 150px;
+}
+#tesk-input{
+    border-radius: 20px;
+    border: none;
+    margin: 20px 0;
+    
+}
+#add-button{
+    color: white;
+    border: none;
+    background: none;
+}
+#add-button:hover{
+    color: black;
+
+}
+.tesk-area{
+    
+}
+.task-taps{
+    display: flex;
+    
+    position: relative;
+}
+
+.task-taps div{
+    padding: 10px;
+    color: white;
+}
+
+#under-line{
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    width: 48px;
+    left: 0;
+    top: 40px;
+    padding: 0;
+    transition: 0.3s;
+
+}
+.task{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.task-done{
+    text-decoration: line-through;
+    
+    
+    
+}
+
+.task-taps div{
+    cursor: pointer;
+}
+
+#task-board div{
+    color: white;
+}
+#task-board button{
+    color: white;
+    background: none;
+    border: none;
+}
+
+#task-board button:hover{
+    transform: rotate( 45deg );
+}
